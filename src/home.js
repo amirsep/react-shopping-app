@@ -14,6 +14,7 @@ const Myhome = () => {
 
   useEffect(() => {
     getProduct();
+    // call
   }, [1]);
 
   const [msg, updatemsg] = useState("");
